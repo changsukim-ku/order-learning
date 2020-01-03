@@ -23,8 +23,8 @@ Coming Soon
 ## Dataset
 We form a ‘balanced dataset’ from MORPH II[1], AFAD[2], and UTK[3]. Before sampling images from MORPH II, AFAD, and UTK, we rectify inconsistent labels by following the strategy in [4]. For each combination of gender in {female, male} and ethnic group in {African, Asian, European}, we sample about 6,000 images. Also, during the sampling, we attempt to make the age distribution as uniform as possible within range [15,80]. The balanced dataset is partitioned into training and test subsets with ratio 8 : 2. Table 1 shows how the balanced dataset is organized.
 
-|<center></center>|<center>MORPH II</center>|<center>AFAD</center>|<center>UTK</center>|<center>Balanced</center>|
-|:--------|:--------:|--------:|
+||MORPH II|AFAD|UTK|Balanced|
+|:--------|:--------|:--------:|--------:|
 
 ## Results
 
