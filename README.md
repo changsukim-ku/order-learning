@@ -25,8 +25,7 @@ We form a ‘balanced dataset’ from MORPH II[1], AFAD[2], and UTK[3]. Before s
 
 ![Lim2020Order](img/balanced_dataset.JPG)
 
-You should download MORPH II, AFAD, and UTK dataset to use our balanced dataset.
-Downloads links are followed:
+You should download MORPH II, AFAD, and UTK dataset to use our balanced dataset.  Downloads links are followed:
 
 MORPH II[[Link](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8)]  AFAD[[Link](https://afad-dataset.github.io/)] UTK[[Link](https://susanqq.github.io/UTKFace/)]
 
@@ -37,11 +36,8 @@ MORPH II[[Link](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail
 
 
 ## Reference
-[1] Karl Ricanek and Tamirat Tesafaye. MORPH: A longitudinal image database of normal adult age-progression. In FGR, pp. 341–345, 2006.
-
-[2] Zhenxing Niu, Mo Zhou, Le Wang, Xinbo Gao, and Gang Hua. Ordinal regression with multiple output CNN for age estimation. In CVPR, pp. 4920–4928, 2016.
-
-[3] Zhifei Zhang, Yang Song, and Hairong Qi. Age progression/regression by conditional adversarial autoencoder. In CVPR, 2017b.
-
+[1] Karl Ricanek and Tamirat Tesafaye. MORPH: A longitudinal image database of normal adult age-progression. In FGR, pp. 341–345, 2006.  
+[2] Zhenxing Niu, Mo Zhou, Le Wang, Xinbo Gao, and Gang Hua. Ordinal regression with multiple output CNN for age estimation. In CVPR, pp. 4920–4928, 2016.  
+[3] Zhifei Zhang, Yang Song, and Hairong Qi. Age progression/regression by conditional adversarial autoencoder. In CVPR, 2017b.  
 [4] Benjamin Yip, Garrett Bingham, Katherine Kempfert, Jonathan Fabish, Troy Kling, Cuixian Chen, and Yishi Wang. Preliminary studies on a large face database. In ICBD, pp. 2572–2579, 2018.
 
