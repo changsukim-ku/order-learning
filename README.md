@@ -25,7 +25,8 @@ We form a ‘balanced dataset’ from MORPH II[1], AFAD[2], and UTK[3]. Before s
 
 ![Lim2020Order](img/balanced_dataset.JPG)
 
-You should download MORPH II, AFAD, and UTK dataset to use our balanced dataset.  Downloads links are followed:
+You should download MORPH II, AFAD, and UTK dataset to use our balanced dataset.  
+Downloads links are followed:
 
 MORPH II[[Link](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8)]  AFAD[[Link](https://afad-dataset.github.io/)] UTK[[Link](https://susanqq.github.io/UTKFace/)]
 
