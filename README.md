@@ -5,7 +5,7 @@
 
 We propose order learning to determine the order graph of classes, representing ranks or priorities, and classify an object instance into one of the classes. To this end, we design a pairwise comparator to categorize the relationship between two instances into one of three cases: one instance is 'greater than,' 'similar to,' or 'smaller than' the other. Then, by comparing an input instance with reference instances and maximizing the consistency among the comparison results, the class of the input can be estimated reliably. We apply order learning to develop a facial age estimator, which provides the state-of-the-art performance. Moreover, the performance is further improved when the order graph is divided into disjoint chains using gender and ethnic group information or even in an unsupervised manner.
 
-If our code or results are helpful for your research, please cite our paper:
+Please cite our paper if you find our code and dataset are helpful for your research:
 ```
 @inproceedings{
 Lim2020Order,
@@ -25,6 +25,9 @@ We form a ‘balanced dataset’ from MORPH II[1], AFAD[2], and UTK[3]. Before s
 
 ![Lim2020Order](img/balanced_dataset.JPG)
 
+You should download MORPH II, AFAD, and UTK dataset to use our balanced dataset.
+
+MORPH II[Link](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8)  AFAD[Link](https://afad-dataset.github.io/) UTK[Link](https://susanqq.github.io/UTKFace/)
 
 ## Results
 
