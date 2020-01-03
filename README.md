@@ -21,12 +21,9 @@ url={https://openreview.net/forum?id=HygsuaNFwr}
 Coming Soon
 
 ## Dataset
-We form a ‘balanced dataset’ from MORPH II[1], AFAD[2], and UTK[3]. Before sampling images from MORPH II, AFAD, and UTK, we rectify inconsistent labels by following the strategy in [4]. For each combination of gender in {female, male} and ethnic group in {African, Asian, European}, we sample about 6,000 images. Also, during the sampling, we attempt to make the age distribution as uniform as possible within range [15,80]. The balanced dataset is partitioned into training and test subsets with ratio 8 : 2. Table 1 shows how the balanced dataset is organized.
+We form a ‘balanced dataset’ from MORPH II[1], AFAD[2], and UTK[3]. Before sampling images from MORPH II, AFAD, and UTK, we rectify inconsistent labels by following the strategy in [4]. For each combination of gender in {female, male} and ethnic group in {African, Asian, European}, we sample about 6,000 images. Also, during the sampling, we attempt to make the age distribution as uniform as possible within range [15,80]. The balanced dataset is partitioned into training and test subsets with ratio 8 : 2. 
 
-머리1 | 머리2 | 머리3 | 뚝배기
----- | ---- | ---- | ----
-다리 | 다리1 | 다리2 | 뚝배기깹니다
-금 | 의 | 환 | 향
+
 
 
 ## Results
