@@ -31,7 +31,7 @@ Downloads links are followed:
 MORPH II[[Link](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8)]  AFAD[[Link](https://afad-dataset.github.io/)] UTK[[Link](https://susanqq.github.io/UTKFace/)]
 
 ## Results
-|    |   Grouping   || 
+    |   Grouping   || 
 |First Header | Second Header | Third Header | 
 |------------ | :-----------: | -----------: | 
 |Content  |   *Long Cell*  || 
