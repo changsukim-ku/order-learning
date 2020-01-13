@@ -30,7 +30,7 @@ url={https://openreview.net/forum?id=HygsuaNFwr}
 
 
 ### Usage
-You can download trained models here[[Link](https://drive.google.com/open?id=17hY4XfZ-1Ke62T-LDVAQYyk6sTKOMLem)].
+You can download trained models here[[Link](https://drive.google.com/open?id=1WzGjwC2YeGgnuq5ni-34byRDaXjU8b2N)].
 Use the following code for evaluation.
 ```
 python comparator_test.py --chain The_number_of_chains --delta Delta_value --experimental_setting Experimental_setting --dataset Dataset_for_evaluation
