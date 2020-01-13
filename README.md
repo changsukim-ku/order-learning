@@ -47,7 +47,13 @@ We also upload our whole MORPH II folds index for 4 experimental settings.
 5-fold cross-validation is performed.
 
 ## Results
+### Balanced Dataset
+Settting | A | B | C | D
+MAE|2.41|2.75|2.68|2.22
+CS(%)|91.7|88.2|88.8|93.3
 
+
+### MORPH II Dataset
 
 ## Reference
 [1] Karl Ricanek and Tamirat Tesafaye. MORPH: A longitudinal image database of normal adult age-progression. In FGR, pp. 341–345, 2006.  
