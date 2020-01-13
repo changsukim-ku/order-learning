@@ -48,13 +48,16 @@ We also upload our whole MORPH II folds index for 4 experimental settings.
 
 ## Results
 ### Balanced Dataset
+| 1CH | 2CH | 3CH | 6CH|
+Superivsed|4.23|4.18|4.19|4.18|
+Unsupervised|-|4.16|4.17|4.16|
+
+
+### MORPH II Dataset
 Settting | A | B | C | D|
 :--------|:--------:|:--------:|:--------:|:--------:|
 MAE|2.41|2.75|2.68|2.22|
 CS(%)|91.7|88.2|88.8|93.3|
-
-
-### MORPH II Dataset
 
 ## Reference
 [1] Karl Ricanek and Tamirat Tesafaye. MORPH: A longitudinal image database of normal adult age-progression. In FGR, pp. 341–345, 2006.  
