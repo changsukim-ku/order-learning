@@ -46,7 +46,7 @@ We also upload our whole MORPH II folds index for 4 experimental settings.
 * UTK
 
 ### Preprocessing
-
+We use SeetaFaceDetection[5][[Link](https://github.com/seetaface/SeetaFaceEngine)] for face detection and face alignment code provided from pyimagesearch[[Link](https://www.pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/)] for face alignment.
 
 ### Usage
 You can download trained models here[[Link](https://drive.google.com/open?id=1WzGjwC2YeGgnuq5ni-34byRDaXjU8b2N)]. Use the following command for evaluation.
@@ -59,7 +59,7 @@ python comparator_test.py --chain The_number_of_chains --experimental_setting Ex
 * Experimental_setting : 'Supervised', 'Unsupervised'
 
 #### MORPH II Dataset
-* Dataset_for_evaluation : 'Morph
+* Dataset_for_evaluation : 'Morph'
 * The_number_of_chains : '1CH'
 * Experimental_setting : 'A', 'B', 'C', 'D'
 
@@ -83,3 +83,4 @@ CS(%)|91.7|88.2|88.8|93.3|
 [2] Zhenxing Niu, Mo Zhou, Le Wang, Xinbo Gao, and Gang Hua. Ordinal regression with multiple output CNN for age estimation. In CVPR, pp. 4920–4928, 2016.  
 [3] Zhifei Zhang, Yang Song, and Hairong Qi. Age progression/regression by conditional adversarial autoencoder. In CVPR, 2017b.  
 [4] Benjamin Yip, Garrett Bingham, Katherine Kempfert, Jonathan Fabish, Troy Kling, Cuixian Chen, and Yishi Wang. Preliminary studies on a large face database. In ICBD, pp. 2572–2579, 2018.  
+[5] Jie Zhang, Shiguang Shan, Meina Kan, and Xilin Chen. Coarse-to-fine auto-encoder networks (CFAN) for real-time face alignment. In ECCV, pp. 1–16, 2014.
