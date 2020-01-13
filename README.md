@@ -26,6 +26,12 @@ url={https://openreview.net/forum?id=HygsuaNFwr}
 * AFAD
 * UTK
 
+### Preprocessing
+
+
+### Usage
+You can evaluate our model 
+
 
 ## Dataset
 We form a ‘balanced dataset’ from MORPH II[1], AFAD[2], and UTK[3]. Before sampling images from MORPH II, AFAD, and UTK, we rectify inconsistent labels by following the strategy in [4]. For each combination of gender in {female, male} and ethnic group in {African, Asian, European}, we sample about 6,000 images. Also, during the sampling, we attempt to make the age distribution as uniform as possible within range [15,80]. The balanced dataset is partitioned into training and test subsets with ratio 8 : 2. 
@@ -50,12 +56,12 @@ We also upload our whole MORPH II folds index for 4 experimental settings.
 ### Balanced Dataset
 Chain| 1CH | 2CH | 3CH | 6CH|
 :--------|:--------:|:--------:|:--------:|:--------:|
-Superivsed|4.23/73.2|4.18/73.4|4.19/73.4|4.18/73.4|
-Unsupervised|-|4.16/74.0|4.17/73.9|4.16/74.0|
+Superivsed|4.23 / 73.2|4.18 / 73.4|4.19 / 73.4|4.18 / 73.4|
+Unsupervised|-|4.16 / 74.0|4.17 / 73.9|4.16 / 74.0|
 
 
 ### MORPH II Dataset
-Settting | A | B | C | D|
+Settting(1CH) | A | B | C | D|
 :--------|:--------:|:--------:|:--------:|:--------:|
 MAE|2.41|2.75|2.68|2.22|
 CS(%)|91.7|88.2|88.8|93.3|
