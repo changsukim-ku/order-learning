@@ -38,12 +38,12 @@ Downloads links are followed:
 MORPH II[[Link](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8)]  AFAD[[Link](https://afad-dataset.github.io/)] UTK[[Link](https://susanqq.github.io/UTKFace/)]
 
 We also upload our whole MORPH II folds index for 4 experimental settings.  
-*Setting A: 5,492 images of Europeans are randomly selected and then divided into training and testing sets with ratio 8:2
-*Setting B: About 21,000 images are randomly selected, while restricting the ratio between Africans and Europeans to 1:1 and that between females and males to 1:3. They are divided into three subsets (S1, S2, S3). The training and testing are done under two sub-settings
-  *(B1) training on S1, testing on S2 + S3
-  *(B2) training on S2, testing on S1 + S3
-*Setting C (SE): The entire dataset is randomly split into five folds, subject to the constraint that the same persons images should belong to only one fold, and the 5-fold cross-validation is performed.
-*Setting D (RS): The entire dataset is randomly split into five folds without any constraint, and the
+* Setting A: 5,492 images of Europeans are randomly selected and then divided into training and testing sets with ratio 8:2
+* Setting B: About 21,000 images are randomly selected, while restricting the ratio between Africans and Europeans to 1:1 and that between females and males to 1:3. They are divided into three subsets (S1, S2, S3). The training and testing are done under two sub-settings
+  * (B1) training on S1, testing on S2 + S3
+  * (B2) training on S2, testing on S1 + S3
+* Setting C (SE): The entire dataset is randomly split into five folds, subject to the constraint that the same persons images should belong to only one fold, and the 5-fold cross-validation is performed.
+* Setting D (RS): The entire dataset is randomly split into five folds without any constraint, and the
 5-fold cross-validation is performed.
 
 ## Results
