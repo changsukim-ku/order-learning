@@ -17,26 +17,6 @@ url={https://openreview.net/forum?id=HygsuaNFwr}
 }
 ```
 
-## Demo
-### Dependencies
-* Python3
-* Tensorflow
-* Pandas
-* MORPH II
-* AFAD
-* UTK
-
-### Preprocessing
-
-
-### Usage
-You can download trained models here[[Link](https://drive.google.com/open?id=1WzGjwC2YeGgnuq5ni-34byRDaXjU8b2N)].
-Use the following code for evaluation.
-```
-python comparator_test.py --chain The_number_of_chains --delta Delta_value --experimental_setting Experimental_setting --dataset Dataset_for_evaluation
-```
-
-
 ## Dataset
 We form a ‘balanced dataset’ from MORPH II[1], AFAD[2], and UTK[3]. Before sampling images from MORPH II, AFAD, and UTK, we rectify inconsistent labels by following the strategy in [4]. For each combination of gender in {female, male} and ethnic group in {African, Asian, European}, we sample about 6,000 images. Also, during the sampling, we attempt to make the age distribution as uniform as possible within range [15,80]. The balanced dataset is partitioned into training and test subsets with ratio 8 : 2. 
 
@@ -55,6 +35,34 @@ We also upload our whole MORPH II folds index for 4 experimental settings.
 * Setting C (SE): The entire dataset is randomly split into five folds, subject to the constraint that the same persons images should belong to only one fold, and the 5-fold cross-validation is performed.
 * Setting D (RS): The entire dataset is randomly split into five folds without any constraint, and the
 5-fold cross-validation is performed.
+
+## Demo
+### Dependencies
+* Python3
+* Tensorflow
+* Pandas
+* MORPH II
+* AFAD
+* UTK
+
+### Preprocessing
+
+
+### Usage
+You can download trained models here[[Link](https://drive.google.com/open?id=1WzGjwC2YeGgnuq5ni-34byRDaXjU8b2N)]. Use the following command for evaluation.
+```
+python comparator_test.py --chain The_number_of_chains --experimental_setting Experimental_setting --dataset Dataset_for_evaluation
+```
+#### Balanced Dataset
+* Dataset_for_evaluation : 'Balanced'
+* The_number_of_chains : '1CH', '2CH', '3CH', '6CH'
+* Experimental_setting : 'Supervised', 'Unsupervised'
+
+#### MORPH II Dataset
+* Dataset_for_evaluation : 'Morph
+* The_number_of_chains : '1CH'
+* Experimental_setting : 'A', 'B', 'C', 'D'
+
 
 ## Results
 ### Balanced Dataset
