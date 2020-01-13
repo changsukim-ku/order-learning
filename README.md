@@ -48,9 +48,10 @@ We also upload our whole MORPH II folds index for 4 experimental settings.
 
 ## Results
 ### Balanced Dataset
-Settting | A | B | C | D
-MAE|2.41|2.75|2.68|2.22
-CS(%)|91.7|88.2|88.8|93.3
+Settting | A | B | C | D|
+:--------|:--------:|:--------:|:--------:|:--------:|
+MAE|2.41|2.75|2.68|2.22|
+CS(%)|91.7|88.2|88.8|93.3|
 
 
 ### MORPH II Dataset
