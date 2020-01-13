@@ -48,7 +48,7 @@ We also upload our whole MORPH II folds index for 4 experimental settings.
 
 ## Results
 ### Balanced Dataset
-| 1CH | 2CH | 3CH | 6CH|
+Chain| 1CH | 2CH | 3CH | 6CH|
 Superivsed|4.23|4.18|4.19|4.18|
 Unsupervised|-|4.16|4.17|4.16|
 
