@@ -38,7 +38,10 @@ We also upload the whole MORPH II fold indices for the following 4 experimental 
 * Setting D (RS): The entire dataset is randomly split into five folds without any constraint, and the
 5-fold cross-validation is performed.
 
-## Demo
+## Train
+### Coming Soon..
+
+## Test
 ### Dependencies
 * Python3
 * Tensorflow
