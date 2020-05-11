@@ -38,11 +38,7 @@ We also upload the whole MORPH II fold indices for the following 4 experimental 
 * Setting D (RS): The entire dataset is randomly split into five folds without any constraint, and the
 5-fold cross-validation is performed.
 
-## Train
-### Coming Soon..
-
-## Test
-### Dependencies
+## Dependencies
 * Python3
 * Tensorflow
 * Pandas
@@ -50,6 +46,18 @@ We also upload the whole MORPH II fold indices for the following 4 experimental 
 * AFAD
 * UTK
 
+## Supervised train
+### Usange
+You can download pre-trained models here [[Link](https://drive.google.com/file/d/1kOJfZbYU-3mSEOISaDGi_JjLehPSBVF6/view?usp=sharing)]. Use the following command for training.
+```
+python comparator_train.py --chain The_number_of_chains --experimental_setting Experimental_setting --dataset Dataset_for_evaluation
+```
+
+
+## Unsupervised train
+#### Coming Soon...
+
+## Test
 ### Preprocessing
 We use SeetaFaceDetection [5][[Link](https://github.com/seetaface/SeetaFaceEngine)] for face detection and face alignment code provided from pyimagesearch [[Link](https://www.pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/)] for face alignment.
 
