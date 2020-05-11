@@ -40,7 +40,7 @@ We also upload the whole MORPH II fold indices for the following 4 experimental 
 
 ## Dependencies
 * Python3
-* Tensorflow
+* Tensorflow v1
 * Pandas
 * MORPH II
 * AFAD
