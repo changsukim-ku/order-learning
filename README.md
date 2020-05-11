@@ -46,21 +46,27 @@ We also upload the whole MORPH II fold indices for the following 4 experimental 
 * AFAD
 * UTK
 
-## Supervised train
-### Usange
-You can download pre-trained models here [[Link](https://drive.google.com/file/d/1kOJfZbYU-3mSEOISaDGi_JjLehPSBVF6/view?usp=sharing)]. Use the following command for training.
-```
-python comparator_train.py --chain The_number_of_chains --experimental_setting Experimental_setting --dataset Dataset_for_evaluation
-```
-
-
-## Unsupervised train
-#### Coming Soon...
-
-## Test
-### Preprocessing
+## Preprocessing
 We use SeetaFaceDetection [5][[Link](https://github.com/seetaface/SeetaFaceEngine)] for face detection and face alignment code provided from pyimagesearch [[Link](https://www.pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/)] for face alignment.
 
+## Supervised training
+### Usage
+You can download pre-trained models here [[Link](https://drive.google.com/file/d/1kOJfZbYU-3mSEOISaDGi_JjLehPSBVF6/view?usp=sharing)]. Use the following command for training.
+```
+python comparator_train.py --chain The_number_of_chains --experimental_setting Experimental_setting --data_path img_dir --dataset Dataset_for_evaluation --initial_model_path pre-trained_model_dir --save_dir dir_for_saving_model --log_dir dir_for_saving_logs
+```
+
+## Unsupervised training
+#### Coming Soon...
+
+## Reference Selection
+### Usage
+Use the following command for reference selection.
+```
+python comparator_select_references.py --chain The_number_of_chains --experimental_setting Experimental_setting --data_path img_dir --dataset Dataset_for_evaluation --save_dir dir_for_saving_ref_data
+```
+
+## Test
 ### Usage
 You can download trained models here [[Link](https://drive.google.com/open?id=1WzGjwC2YeGgnuq5ni-34byRDaXjU8b2N)]. Use the following command for evaluation.
 ```
